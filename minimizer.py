@@ -453,7 +453,10 @@ def main():
         possibleAdditions = PetricksMethod(chart)
         #Convert to strings
         possibleAdditionStrings = list(map(MapImplicationsToString, possibleAdditions))
-    
+    print("------------------------------------")
+    print("Static hazard free implementation:")
+    print(MapImplicationsToString(primeImplicants))
+
     essentialPrimeImplicantsString = MapImplicationsToString(essentialPrimeImplicants)
     print("Possible Minimizations:")
     for string in possibleAdditionStrings:
