@@ -6,6 +6,6 @@ To run, install python 3.6 (may work on older version of 3.x, but untested), and
 
 Currently, the minimizer only supports minimization from minterms and maxterms, but I'd like to implement an expression parser that can parse and minimize, at the very least, expressions in sum of products form.
 
-Other TODOs include getting minimal "hazard-free" implementations, mainly static hazards. Another thing that would be cool (but time consuming) would be to print K-maps for up to 6 variable instructions.
+Other TODOs include printing K-maps for up to 6 variable instructions.
 
-The algorithms used in this script are the  [Quine-McCluskey algorithm](https://en.wikipedia.org/wiki/Quine%E2%80%93McCluskey_algorithm#Step_2:_prime_implicant_chart) to get essential prime implicants, and [Petrick's method](https://en.wikipedia.org/wiki/Petrick%27s_method) in order to find possible minimizations to cover the rest of the function.
+The algorithms used in this script are the  [Quine-McCluskey algorithm](https://en.wikipedia.org/wiki/Quine%E2%80%93McCluskey_algorithm) to get essential prime implicants, and [Petrick's method](https://en.wikipedia.org/wiki/Petrick%27s_method) in order to find possible minimizations to cover the rest of the function.
